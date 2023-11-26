@@ -1152,6 +1152,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8208303018364927022, guid: ebec9a3d8fa3960419b4c916b9efe038, type: 3}
+      propertyPath: hitVFX
+      value: 
+      objectReference: {fileID: 8519036825164437288, guid: 48fcd7229b32d3b499520624dcad6da6, type: 3}
+    - target: {fileID: 8208303018364927022, guid: ebec9a3d8fa3960419b4c916b9efe038, type: 3}
       propertyPath: hitSound
       value: 
       objectReference: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
@@ -1159,6 +1163,10 @@ PrefabInstance:
       propertyPath: throwSound
       value: 
       objectReference: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+    - target: {fileID: 8208303018364927022, guid: ebec9a3d8fa3960419b4c916b9efe038, type: 3}
+      propertyPath: damageParticleEffect
+      value: 
+      objectReference: {fileID: 8519036825164437288, guid: 48fcd7229b32d3b499520624dcad6da6, type: 3}
     - target: {fileID: 8208303018364927023, guid: ebec9a3d8fa3960419b4c916b9efe038, type: 3}
       propertyPath: m_RootOrder
       value: 1
