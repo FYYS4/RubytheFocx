@@ -7,6 +7,8 @@ public class RubyController : MonoBehaviour
 {
     public float speed = 3.0f;
     private int fixedRobotsCount = 0;
+    public int candiesCount { get; private set; } = 0;
+    public TextMeshProUGUI candiesCountText;
     public int maxHealth = 5;
     public int score = 0; // Variable to track the score
     public TextMeshProUGUI fixedRobotsCountText;
@@ -14,6 +16,7 @@ public class RubyController : MonoBehaviour
     public TextMeshProUGUI loseText;
     bool isGameOver;
     public int totalRobotsCount = 4;
+    public int totalcandiesCount = 4;
     public GameObject projectilePrefab;
     public ParticleSystem hitVFX;
     public ParticleSystem HealthVFX;
@@ -44,14 +47,8 @@ public class RubyController : MonoBehaviour
        
         currentHealth = maxHealth;
 
-
-
-
         audioSource = GetComponent<AudioSource>();
     }
-
-
-
 
     // Update is called once per frame
     void Update()
@@ -88,14 +85,25 @@ public class RubyController : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
             if (hit.collider != null)
             {
-                NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+                //Thu part//
+                 NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
                 if (character != null)
                 {
                     character.DisplayDialog();
                 }
+                //Thu's part//
+                SlimeGirlControl slimeGirlCharacter = hit.collider.GetComponent<SlimeGirlControl>();
+                if (slimeGirlCharacter != null)
+                {
+                     if (candiesCount >= 4)
+                    {
+                        DestroyAllSlimeObjects();
+                    }
+                    slimeGirlCharacter.DisplayDialog();
+                }
             }
         }
-        if (fixedRobotsCount >= totalRobotsCount)
+        if (fixedRobotsCount >= totalRobotsCount && NoSlimesRemaining())
         {
             WinGame();
         }
@@ -112,10 +120,26 @@ public class RubyController : MonoBehaviour
             }
         }
     }
+    bool NoSlimesRemaining()
+    {
+        // Check if there are no Slime objects in the scene
+        Slime[] allSlimeObjects = FindObjectsOfType<Slime>();
+        return allSlimeObjects.Length == 0;
+    }
+    void DestroyAllSlimeObjects()
+    {
+        // Find all Slime objects in the scene and destroy them
+        Slime[] allSlimeObjects = FindObjectsOfType<Slime>();
+        foreach (Slime slimeObject in allSlimeObjects)
+        {
+            Destroy(slimeObject.gameObject);
+        }
+    }
     void WinGame()
     {
         isGameOver = true;
         winText.gameObject.SetActive(true);
+        speed = 0f;
         winText.text = "You Win! Game Created by Group 25";
         // Optionally, you may want to perform other actions when the player wins.
     }
@@ -152,10 +176,6 @@ public class RubyController : MonoBehaviour
         Vector2 position = rigidbody2d.position;
         position.x = position.x + speed * horizontal * Time.deltaTime;
         position.y = position.y + speed * vertical * Time.deltaTime;
-
-
-
-
         rigidbody2d.MovePosition(position);
     }
 
@@ -233,6 +253,37 @@ public class RubyController : MonoBehaviour
         {
             fixedRobotsCountText.text = "Fixed Robots: " + fixedRobotsCount.ToString();
         }
+    }
+    //candy count//
+    public void ChangeCandiesCount(int count)
+        {
+            candiesCount += count;
+            UpdateCandiesText(); // Increment the count of candies
+        }
+    void UpdateCandiesText()
+    {
+        // Assuming you have a TextMeshProUGUI variable for displaying candies count
+        if (candiesCountText != null)
+        {
+            candiesCountText.text = "Candies: " + candiesCount.ToString();
+        }
+    }
+    //end//
+        public void DecreaseSpeed(float amount, float duration)
+    {
+        StartCoroutine(ApplySpeedDecrease(amount, duration));
+    }
+
+    private IEnumerator ApplySpeedDecrease(float amount, float duration)
+    {
+        // Decrease the speed
+        speed -= amount;
+
+        // Wait for the specified duration
+        yield return new WaitForSeconds(duration);
+
+        // Restore the original speed
+        speed += amount;
     }
 }
 

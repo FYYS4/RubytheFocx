@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: b219f809ec0510448a25d36e896f01ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chara00701_mini_13
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1651
+        width: 183
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1921c67cf00483428b1cefafb90791a
+      internalID: 620421976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_14
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1653
+        width: 167
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1de98feee6aa246b8159ca39983490
+      internalID: -1244469888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1652
+        width: 157
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6da52dad5f7040488e9a616bf868314
+      internalID: -1723336467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_61
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 836
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e03823d137dd0a4382d6ab00c946490
+      internalID: 633721360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_84
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 790
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f4ab78abaa27d44af071aac998bca9
+      internalID: -1899857989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_94
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 702
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c5a7b83b661ad4fbe2a69b0752d34a
+      internalID: -1357131586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_99
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 676
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b3d51ecb6ab67489150ba74d83e85e
+      internalID: -926869445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chara00701_mini_122
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 488
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7db0d395966d046a2189fe4a08e669
+      internalID: 34969127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chara00701_mini_0: 87138939
+      chara00701_mini_1: -867460825
+      chara00701_mini_10: -73156290
+      chara00701_mini_100: -791681400
+      chara00701_mini_101: 1090170982
+      chara00701_mini_102: -1229407705
+      chara00701_mini_103: 856717750
+      chara00701_mini_104: -803533693
+      chara00701_mini_105: 723259734
+      chara00701_mini_106: -1416666491
+      chara00701_mini_107: 1583787210
+      chara00701_mini_108: -656964972
+      chara00701_mini_109: 914998616
+      chara00701_mini_11: 459286386
+      chara00701_mini_110: -439278318
+      chara00701_mini_111: 1893467095
+      chara00701_mini_112: -385599637
+      chara00701_mini_113: 1907821118
+      chara00701_mini_114: -1749638915
+      chara00701_mini_115: -1107664040
+      chara00701_mini_116: 1791058434
+      chara00701_mini_117: 1398155053
+      chara00701_mini_118: -493551597
+      chara00701_mini_119: -1216683413
+      chara00701_mini_12: 1172225310
+      chara00701_mini_120: 1743072396
+      chara00701_mini_121: -1850096072
+      chara00701_mini_122: 34969127
+      chara00701_mini_123: 1513656598
+      chara00701_mini_124: 578591531
+      chara00701_mini_125: 373191659
+      chara00701_mini_126: 414761986
+      chara00701_mini_127: -1546738089
+      chara00701_mini_128: 1244312258
+      chara00701_mini_129: 275627631
+      chara00701_mini_13: 620421976
+      chara00701_mini_130: -592155071
+      chara00701_mini_131: -32122198
+      chara00701_mini_132: -1895344766
+      chara00701_mini_133: 375071458
+      chara00701_mini_134: 1773532619
+      chara00701_mini_135: 1036984208
+      chara00701_mini_136: 2129359572
+      chara00701_mini_137: 1952798090
+      chara00701_mini_138: 1503203153
+      chara00701_mini_139: -987066106
+      chara00701_mini_14: -1244469888
+      chara00701_mini_140: -738351012
+      chara00701_mini_15: -1723336467
+      chara00701_mini_16: 1306072026
+      chara00701_mini_17: 1402114695
+      chara00701_mini_18: -1437645844
+      chara00701_mini_19: -1697382972
+      chara00701_mini_2: -1570452745
+      chara00701_mini_20: -1057437444
+      chara00701_mini_21: 863080902
+      chara00701_mini_22: 2127299091
+      chara00701_mini_23: -1217085251
+      chara00701_mini_24: 474225897
+      chara00701_mini_25: -1583103008
+      chara00701_mini_26: 979648946
+      chara00701_mini_27: 463681962
+      chara00701_mini_28: -1046661006
+      chara00701_mini_29: 1473409932
+      chara00701_mini_3: 701414019
+      chara00701_mini_30: 1146232123
+      chara00701_mini_31: 701405875
+      chara00701_mini_32: 918152968
+      chara00701_mini_33: -855514859
+      chara00701_mini_34: 1244720444
+      chara00701_mini_35: -792452814
+      chara00701_mini_36: 1100710606
+      chara00701_mini_37: 1294776217
+      chara00701_mini_38: -1167413999
+      chara00701_mini_39: -1912932118
+      chara00701_mini_4: 2144854080
+      chara00701_mini_40: -1741370882
+      chara00701_mini_41: 61704430
+      chara00701_mini_42: -1804928421
+      chara00701_mini_43: -1981734681
+      chara00701_mini_44: 1318784627
+      chara00701_mini_45: 1962240396
+      chara00701_mini_46: 821092225
+      chara00701_mini_47: 942513245
+      chara00701_mini_48: 738202870
+      chara00701_mini_49: 141625230
+      chara00701_mini_5: -1959411453
+      chara00701_mini_50: 1186438786
+      chara00701_mini_51: 116731574
+      chara00701_mini_52: -1487245405
+      chara00701_mini_53: -569889803
+      chara00701_mini_54: 1640910697
+      chara00701_mini_55: -164764987
+      chara00701_mini_56: -426815592
+      chara00701_mini_57: 402977785
+      chara00701_mini_58: -1131094826
+      chara00701_mini_59: -304612704
+      chara00701_mini_6: -2096325265
+      chara00701_mini_60: -1616033046
+      chara00701_mini_61: 633721360
+      chara00701_mini_62: -164727909
+      chara00701_mini_63: 780317550
+      chara00701_mini_64: -355485147
+      chara00701_mini_65: 631148253
+      chara00701_mini_66: -195610877
+      chara00701_mini_67: -562426698
+      chara00701_mini_68: -860767482
+      chara00701_mini_69: 1994357679
+      chara00701_mini_7: 160630178
+      chara00701_mini_70: 1027989072
+      chara00701_mini_71: 1135186126
+      chara00701_mini_72: -1177476746
+      chara00701_mini_73: 1732243933
+      chara00701_mini_74: 104793650
+      chara00701_mini_75: 1383921393
+      chara00701_mini_76: 397177066
+      chara00701_mini_77: 919661919
+      chara00701_mini_78: 680215632
+      chara00701_mini_79: -3763164
+      chara00701_mini_8: 841258434
+      chara00701_mini_80: -142582334
+      chara00701_mini_81: 1607386964
+      chara00701_mini_82: 1695778119
+      chara00701_mini_83: 1567832958
+      chara00701_mini_84: -1899857989
+      chara00701_mini_85: -340570397
+      chara00701_mini_86: -481523598
+      chara00701_mini_87: -922103178
+      chara00701_mini_88: 725416409
+      chara00701_mini_89: 260583763
+      chara00701_mini_9: -996873422
+      chara00701_mini_90: -1049021480
+      chara00701_mini_91: -856921694
+      chara00701_mini_92: 148017242
+      chara00701_mini_93: -271979756
+      chara00701_mini_94: -1357131586
+      chara00701_mini_95: 601508087
+      chara00701_mini_96: 1806103942
+      chara00701_mini_97: -335127586
+      chara00701_mini_98: 98814423
+      chara00701_mini_99: -926869445
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
